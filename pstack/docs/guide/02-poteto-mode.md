@@ -66,6 +66,22 @@ For a noisy report, such as a long thread or a vague bug, make the restatement t
 
 A misreading shows up in the restatement, before any code exists. Correct it there, and it costs you one message instead of one wrong fix.
 
+## Set the bar with a mode
+
+A mode names how strict the run is. The playbook still picks the work. Say it as a prefix or a phrase:
+
+```text
+/poteto-mode prototype: sketch the layout picker and screenshot all three states.
+```
+
+```text
+/poteto-mode switch to production mode before you land this.
+```
+
+Four modes exist, and unset means production. [Prototype](../../skills/quality-modes/SKILL.md) skips tests and polish for a sketch that settles a decision. Production is the full bar every playbook is written against. Enhance makes a regression-safe change to an existing app, running its tests before the first edit. Refactor keeps behavior exactly fixed while the shape moves.
+
+A mode never changes which playbook runs and never waives a [constitution gate](./08-principles.md#the-five-gates-come-first). It only changes how strict the steps run. "drop the mode" clears back to production.
+
 ## Follow up short
 
 When the conversation already carries the context, the prompt shrinks to almost nothing. All of these are enough:
