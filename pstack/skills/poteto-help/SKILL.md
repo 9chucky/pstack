@@ -65,6 +65,7 @@ The default answer is `/poteto-mode`, which runs most of the others when its ste
 | Do any non-trivial task with rigor | [`/poteto-mode`](../poteto-mode/SKILL.md) |
 | Enforce the hard floor: no secrets, no hardcoded env values, real data, verified done, locked plans | [`/constitution`](../constitution/SKILL.md) |
 | Set the quality bar for a run, prototype through production | [`/quality-modes`](../quality-modes/SKILL.md) |
+| Keep a run cheap, or split work that outgrows its budget | [`/cost-discipline`](../cost-discipline/SKILL.md) |
 | Know how code works now, or where new code should live | [`/how`](../how/SKILL.md) |
 | Know why code is shaped this way, or where a number came from | [`/why`](../why/SKILL.md) |
 | Understand a change or subsystem, explained plainly | [`/teach`](../teach/SKILL.md) |

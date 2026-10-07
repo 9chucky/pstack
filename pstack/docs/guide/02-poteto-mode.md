@@ -82,6 +82,16 @@ Four modes exist, and unset means production. [Prototype](../../skills/quality-m
 
 A mode never changes which playbook runs and never waives a [constitution gate](./08-principles.md#the-five-gates-come-first). It only changes how strict the steps run. "drop the mode" clears back to production.
 
+## Keep the run cheap
+
+Name a budget and the run respects it:
+
+```text
+/poteto-mode cheap run. fix the flaky test, max three subagents.
+```
+
+The [cost-discipline](../../skills/cost-discipline/SKILL.md) skill turns a budget phrase into a cap the run enforces. Unset means economy by habit, not a hard cap. Work that outgrows the budget splits into the [multi-phase plan playbook](../../skills/poteto-mode/playbooks/multi-phase-plan.md) instead of burning one context. Every reply carries one spend line, and a checkpoint block a cold-start agent can resume from, so the next pickup reads files instead of re-deriving history. [Pause safely](../../skills/poteto-mode/playbooks/pause-safely.md) covers the explicit stop, and [Session pickup](../../skills/poteto-mode/playbooks/session-pickup.md) the resume.
+
 ## Follow up short
 
 When the conversation already carries the context, the prompt shrinks to almost nothing. All of these are enough:
