@@ -4,6 +4,20 @@ pstack ships 24 principles as individual skills. `/poteto-mode` reads their inde
 
 You don't invoke principles. You use their names to steer. Each name points at a complete rule the agent has already read, so one phrase redirects the work more precisely than a paragraph of instructions.
 
+## The five gates come first
+
+The [constitution](../../skills/constitution/SKILL.md) skill sets the hard floor the principles sit on. Five gates: no secrets in the repo, no hardcoded environment values, real data only, verify before done, and locked plans respected.
+
+Gates are not judgment. When a principle, a playbook step, or an instruction conflicts with a gate, the gate wins. A session override such as "be fully autonomous" speeds the work up. It does not waive a gate.
+
+You steer a gate the same way, by name:
+
+```text
+gate 2. move that host into the config, don't inline it.
+```
+
+Every reply closes with a one-line verdict, like "Constitution. All gates pass." A violated gate blocks the done claim and gets fixed or reported open. Only you can waive a gate, by naming it and the reason, and the agent records the waiver in its reply.
+
 ## Steering in practice
 
 Say the agent is about to bolt a new adapter onto three existing ones:
